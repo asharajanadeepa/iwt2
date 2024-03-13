@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="Styles/style.css">
+	<title> Registation form </title>
+	</head>
+	<body>
+		<img class="logo" src="images/cart.jfif" width="200" height ="200">
+		<h1 id=header> Shopping Cart </h1>
+		<h3 id="header">The other shopping store</h3>
+		<hr id="line">
+		<ul class="menu">
+			<li class="menu"><a href="index.html">Home</a></li>
+			<li class="menu"><a href="news.html">News</a></li>
+			<li class="menu"><a href="Register.html">Contact</a></li>
+			<li class="menu"><a href="#">About</a></li>
+		</ul>
+        <center>
+            <h2>Registration Form</h2>
+        </center>
+        <form>
+            First Name:<br>
+            <input type="text" name="firstname" placeholder="First Name" required><br/>
+
+            Last Name:<br>
+            <input type="text" name="last name " placeholder="Last Name" required><br/><br/>
+
+            gender:<br>
+            <input type="radio" value="male" name="gender">Male
+            <input type="radio" value="FeMale" name="gender" checked>FeMale<br/><br/>
+
+            Mobile NUmber:<br/>
+            <input type="phone" name="mobile" placeholder="0771842446"
+            pattern="[0-9]{10}" required><br/><br/>
+
+            email:<br/>
+            <input type="email" name="email" placeholder="abc@gamil.com"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"required><br/>
+
+          address:<br/>
+          <textarea name="address" rows="8" cols="50" required></textarea><br/><br/>
+
+          Birthday:<br/>
+          <input type="data" name="day" required><br/><br/>
+
+          Password:<br/>
+          <input type="password" id="pwd"
+          pattern="(?=.+\d)(?=.+[a-z])(?=.+[a-z]).{5,10}"required><br/><br/>
+
+          Re enter password:<br/>
+          <input type="password" id="cnfrmpwd" required><br/><br/>
+
+            <input type="submit"/>
+
+        </form>
+	
+		<hr>
+		<footer><center>
+		<h3 style="font-weight:bold; font-style:italic">Created by Sajalee Misalya</h3>
+		<a href="http://courseweb.sliit.lk/">Visit to Our Course</a>
+		</center>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+body{
+		background-image: url("../images/bg.jfif");
+}
+.logo{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#header{
+	font-weight: bold;
+	font-style:italic;
+	font-size:32px;
+	text-align:center;
+}
+
+#line{
+	border:2px solid purple;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.productData{
+	background-color:white;
+	padding:3px;
+}
+.col1{
+	text-align:centre;
+}
+.col2{
+	text-align:left;
+}
+
+div{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+	
